@@ -1,0 +1,15 @@
+{
+  "name": "nuxtcsharp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devClient": "cd client && npm run dev",
+    "dev": "concurrently \"server.bat\" \"cd client  && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

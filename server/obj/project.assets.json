@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raymo\\source\\repos\\mongoDb\\mongoDb.csproj",
+      "projectUniqueName": "C:\\Users\\raymo\\NuxtCSharp\\server\\mongoDb.csproj",
       "projectName": "mongoDb",
-      "projectPath": "C:\\Users\\raymo\\source\\repos\\mongoDb\\mongoDb.csproj",
+      "projectPath": "C:\\Users\\raymo\\NuxtCSharp\\server\\mongoDb.csproj",
       "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raymo\\source\\repos\\mongoDb\\obj\\",
+      "outputPath": "C:\\Users\\raymo\\NuxtCSharp\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",

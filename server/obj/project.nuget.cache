@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EvZkqymWUIU=",
+  "dgSpecHash": "gWbKXKvHWiM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\raymo\\source\\repos\\mongoDb\\mongoDb.csproj",
+  "projectFilePath": "C:\\Users\\raymo\\NuxtCSharp\\server\\mongoDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raymo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\raymo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
