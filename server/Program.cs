@@ -8,6 +8,10 @@ builder.Services.Configure<BookStoreDatabaseSettings>(builder.Configuration.GetS
 builder.Services.AddSingleton<BooksService>();
 
 builder.Services.AddControllers();
+
+    /* Add this too have capalization too return object.
+     * .AddJsonOptions(
+        options => options.JsonSerializerOptions.PropertyNamingPolicy = null);*/
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -28,4 +32,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
