@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/storybook'
+    '@nuxtjs/storybook',
+    '@pinia/nuxt'
   ],
 
 })
