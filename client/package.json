@@ -1,20 +1,43 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@nuxtjs/storybook": "^8.0.0",
     "@pinia/nuxt": "^0.5.1",
-    "nuxt": "^3.11.2",
-    "pinia": "^2.1.7",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt": "3.6.5",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/storybook": "7.0.0",
+    "@storybook-vue/nuxt": "0.1.7",
+    "@storybook/addon-essentials": "7.5.0-alpha.3",
+    "@storybook/addon-interactions": "7.5.0-alpha.3",
+    "@storybook/addon-links": "7.5.0-alpha.3",
+    "@storybook/blocks": "7.5.0-alpha.3",
+    "@storybook/builder-vite": "7.5.0-alpha.3",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "7.5.0-alpha.3",
+    "@types/node": "^18.17.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "7.5.0-alpha.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@babel/plugin-proposal-class-properties": "npm:@babel/plugin-transform-class-properties",
+      "@babel/plugin-proposal-optional-chaining": "npm:@babel/plugin-transform-optional-chaining",
+      "@babel/plugin-proposal-nullish-coalescing-operator": "npm:@babel/plugin-transform-nullish-coalescing-operator"
+    }
   }
 }
